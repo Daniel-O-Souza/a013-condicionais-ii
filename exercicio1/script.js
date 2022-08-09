@@ -14,4 +14,8 @@ const num = Number(prompt("Digite um número:"))
 
 // UTILIZANDO OPERADORES LÓGICOS:
 
-console.log(num % 2 === 0 || num % 3 === 0? "O número é divisível por 2 ou por 3" : "O número não é divisível por 2 ou por 3")
+if(num % 2 === 0 || num % 3 === 0){
+    console.log("O número é divisível por 2 ou por 3")
+}else{
+    console.log("O numero não é divisível por 2 ou por 3")
+}
